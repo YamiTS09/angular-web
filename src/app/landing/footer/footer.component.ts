@@ -7,5 +7,7 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  abrirCorreo() {
+    window.open('https://mail.google.com/mail/?view=cm&fs=1&to=reactivando.vidas.cuitlahuac@gmail.com', '_blank');
+  }
 }

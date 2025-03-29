@@ -8,4 +8,15 @@ import { Component } from '@angular/core';
 })
 export class ContentComponent {
 
+  constructor() {
+  }
+  
+  scrollToSection(event: Event, sectionId: string) {
+    event.preventDefault(); // Evita la recarga de la página
+    const section = document.getElementById(sectionId);
+    if (section) {
+      section.scrollIntoView({ behavior: 'smooth' });
+    }
+  }
+
 }
