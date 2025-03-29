@@ -1,1 +1,141 @@
 /* You can add global styles to this file, and also import other style files */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.auth-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    outline: none;
+    border-color: #4a90e2;
+    box-shadow: 0 0 0 2px rgba(74, 144, 226, 0.2);
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 0.25rem;
+}
+
+.error-message {
+    color: #dc3545;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.register-link,
+.login-link {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+a {
+    color: #4a90e2;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para el botón navbar-toggler */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .navbar-toggler .fas {
+    font-size: 1.5rem;
+    color: #fff; /* Cambia el color según tu preferencia */
+  }
+  
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  /* Estilo para la barra de navegación */
+  .navbar {
+    background-color: #6fafff; /* Color de fondo de la barra de navegación */
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    color: #fff; /* Color del texto de los enlaces */
+    padding: 0.75rem 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #f8f9fa; /* Color del texto al pasar el ratón por encima */
+  }
+  
+  .navbar-nav .nav-item .nav-link.active {
+    color: #ffc107; /* Color del texto del enlace activo */
+  }
+  
+  /* Estilo para el contenedor de la barra de navegación */
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Estilo para el icono de la barra de navegación */
+  .navbar-toggler-icon {
+    color: #fff; /* Color del icono de la barra de navegación */
+  }

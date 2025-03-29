@@ -1,0 +1,43 @@
+/* Barra lateral */
+.sidebar {
+    background-color: #6fafff;
+    height: 100vh;
+  }
+  
+  .sidebar .nav-link {
+    color: #ffffff;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar .nav-link:hover {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Tarjetas */
+  .card {
+    border: 0;
+    border-radius: 10px;
+  }
+  
+  .card.shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  }
+  
+  .card-body {
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-body .chart-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    margin-right: 20px;
+  }
+  
+  /* Texto */
+  h4, h5 {
+    font-weight: 600;
+  }
+  

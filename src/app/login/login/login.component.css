@@ -1,0 +1,98 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+input, button {
+  margin: 10px 0;
+  padding: 10px;
+}
+/* Contenedor de la imagen con texto */
+.hero-image {
+position: relative;
+text-align: center;
+}
+
+.hero-image img {
+width: 100%;
+height: auto;
+}
+
+.hero-image h1 {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+font-size: 3rem;
+font-weight: bold;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Navigation */
+#mainNav {
+background-color: #6fafff;
+}
+
+/* Inicio section */
+#inicio {
+scroll-margin-top: 100px;
+}
+
+#servicios {
+scroll-margin-top: 100px;
+}
+
+#productos{
+scroll-margin-top: 100px;
+}
+
+/* Estilo para las tarjetas de inicio */
+.card {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+width: 100%;
+padding: 20px;
+}
+
+.card-body {
+flex: 1;
+text-align: justify;
+padding-right: 20px;
+}
+
+.card-img-top {
+object-fit: cover;
+max-height: 300px;
+}
+
+.card-img-top {
+width: 40%;
+}
+
+/* Estilos de las cards en servicios */
+.card-service {
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 20px;
+}
+
+.card-service-body {
+text-align: justify;
+padding-right: 20px;
+}
+
+.card-service-img {
+width: 100%;
+object-fit: cover;
+max-height: 300px;
+margin-bottom: 15px;
+}
+
+/* Estilo para las secciones */
+.page-section {
+margin-bottom: 50px;
+}
